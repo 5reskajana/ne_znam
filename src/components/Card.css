@@ -1,0 +1,33 @@
+.card-container {
+    width: 570px;
+    overflow: hidden;
+    box-shadow: 0 0 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+    background: white;
+    text-align: left;
+    padding: 2rem;
+}
+
+.card-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0px;
+    background: #fcc183;
+    color: white;
+}
+
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.features-text {
+    font-size: 20px;
+}
